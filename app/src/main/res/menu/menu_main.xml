@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hi.chatter.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+
+    <item android:title="Options">
+
+        <item
+            android:id="@+id/new_group"
+            android:orderInCategory="100"
+            android:title="New Group"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/new_Broadcast"
+            android:orderInCategory="100"
+            android:title="New Broadcast"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/starred_msg"
+            android:orderInCategory="100"
+            android:title="Starred Messages"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_settings"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:showAsAction="never" />
+    </item>
+
+</menu>
